@@ -36,7 +36,7 @@ Use CTRL-C to quit.
 
 Building the librairies is not required as binaries are available on GNU.org or in Linux distributions. Here, binaries are provided for simplicity and no additional download is required.
 
-# Windows 
+## Windows 
 Available here: https://ftpmirror.gnu.org/libmicrohttpd/libmicrohttpd-latest-w32-bin.zip
 
 ## Linux
