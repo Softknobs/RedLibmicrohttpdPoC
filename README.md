@@ -5,12 +5,12 @@ Simple libmicrohttpd server example serving one page with Red bindings (Windows 
 
 Compile for Windows with this command:
 ```
-red -t Linux libmicrohttpd-example.red
+red -t Windows libmicrohttpd-example.red
 ```
 
 or Linux:
 ```
-red -t Windows libmicrohttpd-example.red
+red -t Linux libmicrohttpd-example.red
 ```
 
 # Usage
