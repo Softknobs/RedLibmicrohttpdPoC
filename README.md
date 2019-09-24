@@ -40,7 +40,7 @@ Available here: https://ftpmirror.gnu.org/libmicrohttpd/libmicrohttpd-latest-w32
 
 ## Linux
 
-Depends on the distribution. For Debian, the .so can be retrieved by installing:
+Depends on the distribution. For Debian x64, the .so can be retrieved by installing:
 ```
 apt-get install libmicrohttpd12:i386
 ```
