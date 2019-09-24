@@ -19,7 +19,7 @@ Run the executable
 
 ## Windows
 
-![Screenshot](https://github.com/Softknobs/RedLibmicrohttpdPoC/blob/master/red-rtmidi-ui.png)
+![Screenshot](https://github.com/Softknobs/RedLibmicrohttpdPoC/blob/master/libmicrohttpd-win.png)
 
 - port can be customized with dedicated port field
 - by default, click "Start" to start the server on port 8080
