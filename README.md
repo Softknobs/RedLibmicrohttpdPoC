@@ -1,5 +1,6 @@
 # RedLibmicrohttpdPoC
-Simple libmicrohttpd server example serving one page with Red bindings (Windows / Linux)
+Simple libmicrohttpd server example serving one page with Red bindings (Windows / Linux).
+Example based on https://github.com/ulion/libmicrohttpd/blob/master/doc/examples/hellobrowser.c
 
 # Build
 
