@@ -93,8 +93,8 @@ switch system/platform [
 			text "Port: "
 			port: field data 8080
 			return
-			button "Start server" [daemon: start port/data]
-			button "Stop server" [stop daemon]
+			button "Start server" [if not daemon [daemon: start port/data]]
+			button "Stop server" [if daemon [stop daemon daemon: none]]
 		]		
 	]
 	Linux [
