@@ -8,8 +8,8 @@ Simple libmicrohttpd server example serving one page with Red bindings (Windows 
 Example based on https://github.com/ulion/libmicrohttpd/blob/master/doc/examples/hellobrowser.c
 
 ## POST
-### libmicrohttpd-example.red
-Simple post example serving one page with Red bindings (Windows / Linux).
+### libmicrohttpd-post.red
+Simple post example printing a message to console from a html form using Red bindings (Windows / Linux).
 Example based on https://git.gnunet.org/libmicrohttpd.git/tree/doc/examples/simplepost.c
 
 # Build
