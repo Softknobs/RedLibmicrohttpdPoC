@@ -1,17 +1,27 @@
 # RedLibmicrohttpdPoC
+libmicrohttpd server examples using Red bindings (Windows / Linux). These scripts are only a "proof of concept" and are not production ready.
+All Red scripts are independent. For that matter, bindings might differ from script to script.
+
+## GET
+### libmicrohttpd-example.red
 Simple libmicrohttpd server example serving one page with Red bindings (Windows / Linux).
 Example based on https://github.com/ulion/libmicrohttpd/blob/master/doc/examples/hellobrowser.c
+
+## POST
+### libmicrohttpd-example.red
+Simple post example serving one page with Red bindings (Windows / Linux).
+Example based on https://git.gnunet.org/libmicrohttpd.git/tree/doc/examples/simplepost.c
 
 # Build
 
 Compile for Windows with this command:
 ```
-red -t Windows libmicrohttpd-example.red
+red -t Windows libmicrohttpd-<example>.red
 ```
 
 or Linux:
 ```
-red -t Linux libmicrohttpd-example.red
+red -t Linux libmicrohttpd-<example>.red
 ```
 
 # Usage
@@ -20,12 +30,17 @@ Run the executable
 
 ## Windows
 
+## GET
 ![Screenshot](https://github.com/Softknobs/RedLibmicrohttpdPoC/blob/master/libmicrohttpd-win.png)
 
 - port can be customized with dedicated port field
 - by default, click "Start" to start the server on port 8080
 - browse http://localhost:8080 to see the served page
 - click "Stop" to stop the server
+
+### Post
+
+Command line only. The server runs on port 8080. Hit Ctrl-C to quit
 
 ## Linux
 
