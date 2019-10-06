@@ -30,7 +30,7 @@ Run the executable
 
 ## Windows
 
-## GET
+### GET
 ![Screenshot](https://github.com/Softknobs/RedLibmicrohttpdPoC/blob/master/libmicrohttpd-win.png)
 
 - port can be customized with dedicated port field
